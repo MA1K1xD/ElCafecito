@@ -15,14 +15,14 @@ export default function Contact() {
               </div>
             </div>
             <div className="info-item">
-              <img src="public/images/phone.svg" alt="Teléfono" className="info-icon" />
+              <img src="/images/phone.svg" alt="Teléfono" className="info-icon" />
               <div>
                 <h3>Teléfono</h3>
                 <p>+52 (555) 123-4567</p>
               </div>
             </div>
             <div className="info-item">
-              <img src="public/images/clock-arrow-right.svg" alt="Horario" className="info-icon" />
+              <img src="/images/clock-arrow-right.svg" alt="Horario" className="info-icon" />
               <div>
                 <h3>Horario</h3>
                 <p>Lun - Vie: 7:00 AM - 9:00 PM<br />Sáb - Dom: 8:00 AM - 10:00 PM</p>
