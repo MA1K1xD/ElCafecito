@@ -11,10 +11,12 @@ export default function App() {
     <>
       <Navbar />
       <Hero />
-      <About />
-      <MenuSection />
-      <Contact />
-      <Footer />
+      <main className="content-column">
+        <About />
+        <MenuSection />
+        <Contact />
+        <Footer />
+      </main>
     </>
   );
 }

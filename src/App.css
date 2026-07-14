@@ -33,6 +33,10 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   background-color: var(--latte);
+  background-image: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1400');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
   color: var(--text-dark);
   line-height: 1.6;
 }
@@ -135,6 +139,17 @@ h1, h2, h3, h4 {
   transition: var(--transition);
 }
 
+/* ========== SIDE COFFEE DECORATIONS ========== */
+
+.content-column {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 30px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 /* ========== HERO ========== */
 .hero {
   position: relative;
@@ -146,6 +161,7 @@ h1, h2, h3, h4 {
   background:
     linear-gradient(135deg, rgba(44, 26, 14, 0.85), rgba(92, 61, 46, 0.75)),
     url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1400') center/cover no-repeat;
+  background-attachment: fixed;
 }
 
 .hero-content {
@@ -197,6 +213,9 @@ h1, h2, h3, h4 {
 .about {
   padding: 100px 0;
   background: var(--white);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.35);
 }
 
 .about h2 {
@@ -261,6 +280,9 @@ h1, h2, h3, h4 {
 .menu-section {
   padding: 100px 0;
   background: var(--latte);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.35);
 }
 
 .menu-section h2 {
@@ -373,6 +395,9 @@ h1, h2, h3, h4 {
   padding: 100px 0;
   background: var(--espresso);
   color: var(--cream);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.35);
 }
 
 .contact h2 {
@@ -444,6 +469,9 @@ h1, h2, h3, h4 {
 .footer {
   background: #1A0E07;
   padding: 25px 0;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.35);
 }
 
 .footer-content {
