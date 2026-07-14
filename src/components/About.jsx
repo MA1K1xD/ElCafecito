@@ -1,8 +1,8 @@
 export default function About() {
   const features = [
-    { icon: '🫘', title: 'Café de Especialidad', desc: 'Tostado artesanalmente en lotes pequeños' },
-    { icon: '🍰', title: 'Postres Caseros', desc: 'Preparados frescos cada mañana' },
-    { icon: '🌿', title: 'Ingredientes Frescos', desc: 'De proveedores locales de confianza' },
+    { icon: '/images/coffee-bean.svg', title: 'Café de Especialidad', desc: 'Tostado artesanalmente en lotes pequeños' },
+    { icon: '/images/ice-cream-bowl.svg', title: 'Postres Caseros', desc: 'Preparados frescos cada mañana' },
+    { icon: '/images/leaf.svg', title: 'Ingredientes Frescos', desc: 'De proveedores locales de confianza' },
   ];
 
   return (
@@ -20,7 +20,7 @@ export default function About() {
           <div className="about-features">
             {features.map((f, i) => (
               <div className="feature" key={i}>
-                <span className="feature-icon">{f.icon}</span>
+                <img src={f.icon} alt={f.title} className="feature-icon" />
                 <h3>{f.title}</h3>
                 <p>{f.desc}</p>
               </div>

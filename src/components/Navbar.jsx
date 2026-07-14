@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <a href="#" className="logo"><img src="/images/cofe.png" alt="El Cafecito" className="logo-img" /> El Cafecito</a>
+        <a href="#" className="logo"><img src="/images/acorn.svg" alt="El Cafecito" className="logo-img" /> El Cafecito</a>
         <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
           <li><a href="#inicio" onClick={() => setMenuOpen(false)}>Inicio</a></li>
           <li><a href="#nosotros" onClick={() => setMenuOpen(false)}>Nosotros</a></li>

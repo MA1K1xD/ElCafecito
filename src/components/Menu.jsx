@@ -53,7 +53,7 @@ export default function MenuSection() {
         <div className="menu-grid">
           {filtered.map((item, i) => (
             <div className="menu-card" key={i} onClick={() => setSelected(item)}>
-              <img src={item.image} alt={item.name} className="menu-card-img" />
+              <img src={item.image} alt={i} className="menu-card-img" />
               <h3>{item.name}</h3>
               <p>{item.desc}</p>
               <span className="price">{item.price}</span>
