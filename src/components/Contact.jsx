@@ -31,7 +31,7 @@ export default function Contact() {
           </div>
           <div className="contact-map">
             <div className="map-placeholder">
-              <span>🗺️</span>
+              <img src ="/images/map.svg" alt="Mapa" />
               <p>Aquí va tu mapa de ubicación</p>
               <small>Integra Google Maps o tu servicio de mapas favorito</small>
             </div>
